@@ -1,6 +1,6 @@
 # UG_RISC_V_CPU
 
-A simplified RISC-V CPU core implemented in Verilog/SystemVerilog as part of an undergraduate digital design project.
+A RISC-V CPU core implemented in Verilog/SystemVerilog as part of an undergraduate digital design project.
 
 This CPU supports basic RISC-V instructions and has been modularly designed and tested using multiple testbenches and waveform simulations.
 
