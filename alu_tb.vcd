@@ -1,0 +1,98 @@
+$date
+	Fri Mar 21 21:44:07 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module alu_tb $end
+$var wire 1 ! Zero $end
+$var wire 1 " Negative $end
+$var wire 32 # ALUResult [31:0] $end
+$var reg 5 $ ALUControl [4:0] $end
+$var reg 32 % SrcA [31:0] $end
+$var reg 32 & SrcB [31:0] $end
+$scope module dut $end
+$var wire 5 ' ALUControl [4:0] $end
+$var wire 32 ( SrcA [31:0] $end
+$var wire 32 ) SrcB [31:0] $end
+$var reg 32 * ALUResult [31:0] $end
+$var reg 1 " Negative $end
+$var reg 1 ! Zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 *
+b101 )
+b1010 (
+b10 '
+b101 &
+b1010 %
+b10 $
+b1111 #
+0"
+0!
+$end
+#10000
+b11110 $
+b11110 '
+b10100 %
+b10100 (
+#20000
+1"
+b11111111111111111111111111111111 #
+b11111111111111111111111111111111 *
+b111 $
+b111 '
+b11110000111100001111000011110000 &
+b11110000111100001111000011110000 )
+b1111000011110000111100001111 %
+b1111000011110000111100001111 (
+#30000
+0"
+1!
+b0 #
+b0 *
+b11 $
+b11 '
+#40000
+0!
+b1000 #
+b1000 *
+b0 $
+b0 '
+b10 &
+b10 )
+b10 %
+b10 (
+#50000
+b10000 #
+b10000 *
+b10000 $
+b10000 '
+b11 &
+b11 )
+b10000000 %
+b10000000 (
+#60000
+1!
+b0 #
+b0 *
+b11110 $
+b11110 '
+b1010 &
+b1010 )
+b1010 %
+b1010 (
+#70000
+1"
+0!
+b11111111111111111111111111111011 #
+b11111111111111111111111111111011 *
+b101 %
+b101 (
+#130000
